@@ -98,26 +98,15 @@
     "featured": true,
     "rating": "U"
   },
- {
-    "id": "Shinchan-Sample",
-    "name": "Shinchan",
-    "url": "https://ia600705.us.archive.org/25/items/shinchan-new-horror-episode-no-30-home-scary-in-tamil/Shinchan%20new%20horror%20Episode%20No%2030%20home%20scary%20in%20Tamil.mp4",
-    "category": "Kids",
-    "language": "Malayalam",
-    "image": "https://mohammedanas927.github.io/Images/Shinchan.jpg",
-    "description": "Shinchan",
-    "featured": true,
-    "rating": "U"
-  },
   {
-    "id": "Karuppu",
-    "name": "Karuppu Tamil 2026",
-    "url": "https://s34.cdnserver04.xyz/Karuppu_2026_HQ_PreDVD_(v2)_1080p_HD.mp4",
-    "category": "Movies",
-    "language": "Tamil",
-    "image": "https://c.saavncdn.com/199/Verappa-From-Karuppu-Tamil-2025-20250724002422-500x500.jpg",
-    "description": "Karuppu (கருப்பு) is a Tamil action drama film that shows the story of a strong hero who fights against injustice in a village. The film focuses on themes like justice, power, and protecting innocent people.",
+    "id": "Mathrubhumi-News",
+    "name": "Mathrubhumi News",
+    "url": "https://yuppmedtaorire.akamaized.net/v1/manifest/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/244850ab-aa5a-4ea3-b7b6-aa92699d8337/3.m3u8",
+    "category": "News",
+    "language": "Malayalam",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_-3wykkEyk1m-7AqOdgu_dejSUdGPfo80g&s",
+    "description": "Mathrubhumi News is a prominent 24-hour Malayalam-language free-to-air satellite television news channel based in Kerala, India. Launched on January 23, 2013, it is owned and operated by the Mathrubhumi Printing & Publishing Co. Ltd., which also publishes the widely read Mathrubhumi newspaper.",
     "featured": true,
     "rating": "U"
   }
-]
+ ]
