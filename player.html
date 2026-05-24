@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Watch Live TV - Tamil Box Live</title>
+  <meta name="description" content="Stream live TV channels inside our high performance custom web player.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- FontAwesome Icons for UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Hls.js library for streaming M3U8 inside all modern browsers -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header" id="app-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link" id="logo-link">
+        Tamil Box Live<span class="logo-dot">.</span>
+      </a>
+      
+      <div class="nav-actions">
+        <div class="live-badge-pulse" id="header-live-badge">Live TV</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Player Main Layout -->
+  <main class="player-page-container" id="player-container">
+    
+    <!-- Left Column: Video and details -->
+    <div class="player-main-col" id="player-main-col">
+      
+      <!-- Back button -->
+      <div class="back-btn-row">
+        <a href="index.html" class="back-link" id="back-to-home">
+          <i class="fa-solid fa-arrow-left"></i> Back to Home
+        </a>
+      </div>
+
+      <!-- Video Element Frame -->
+      <div class="video-wrapper" id="video-wrapper">
+        <video id="live-video" playsinline></video>
+        
+        <!-- Custom Controls Overlay -->
+        <div class="custom-video-controls" id="custom-controls-overlay">
+          
+          <!-- Big Center Actions (Play/Pause/Spinner) -->
+          <div class="center-controls" id="center-actions">
+            <button class="center-btn" id="btn-center-play" aria-label="Play"><i class="fa-solid fa-play"></i></button>
+            <div class="video-spinner" id="video-loading-spinner" style="display: none;"><i class="fa-solid fa-spinner fa-spin"></i></div>
+          </div>
+          
+          <!-- Quality/Settings Dropdown Panel -->
+          <div class="settings-panel" id="settings-menu-panel" style="display: none;">
+            <div class="settings-section">
+              <div class="settings-sec-title">Quality</div>
+              <ul class="settings-list" id="quality-selector-list">
+                <!-- Filled dynamically via Hls.js in JS -->
+              </ul>
+            </div>
+            <div class="settings-section border-top">
+              <div class="settings-sec-title">Playback Speed</div>
+              <ul class="settings-list" id="speed-selector-list">
+                <li class="settings-item active" data-speed="1">Normal</li>
+                <li class="settings-item" data-speed="1.25">1.25x</li>
+                <li class="settings-item" data-speed="1.5">1.5x</li>
+                <li class="settings-item" data-speed="2">2.0x</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bottom Control Bar -->
+          <div class="bottom-control-bar">
+            <!-- Left Side Controls -->
+            <div class="control-group-left">
+              <button class="control-btn" id="btn-play-pause" aria-label="Play/Pause"><i class="fa-solid fa-play"></i></button>
+              
+              <!-- Live Badge -->
+              <div class="ctrl-live-indicator">
+                <span class="ctrl-live-dot"></span> LIVE
+              </div>
+
+              <!-- Volume Control Group -->
+              <div class="volume-container">
+                <button class="control-btn" id="btn-mute" aria-label="Mute/Unmute"><i class="fa-solid fa-volume-high"></i></button>
+                <input type="range" class="volume-slider" id="volume-slider" min="0" max="1" step="0.05" value="1">
+              </div>
+            </div>
+
+            <!-- Right Side Controls -->
+            <div class="control-group-right">
+              <button class="control-btn" id="btn-settings-toggle" aria-label="Settings"><i class="fa-solid fa-gear"></i></button>
+              <button class="control-btn" id="btn-fullscreen-toggle" aria-label="Fullscreen"><i class="fa-solid fa-expand"></i></button>
+            </div>
+          </div>
+
+        </div>
+        
+        <!-- Video Stream Loading / Error fallback screen -->
+        <div class="video-error-overlay" id="video-error-screen" style="display: none;">
+          <div class="error-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+          <h3 class="error-title" id="error-title-text">Stream Playback Failed</h3>
+          <p class="error-msg" id="error-msg-text">The live stream is currently offline, loading slowly, or blocked by security policies. We are trying to establish a connection...</p>
+          <button class="btn-retry" id="btn-retry-stream">Try Again</button>
+        </div>
+      </div>
+
+      <!-- Channel Description Details Card -->
+      <section class="player-details-card" id="details-card">
+        <div class="details-header">
+          <div class="details-title-wrap">
+            <h1 class="details-title" id="channel-name">Channel Name</h1>
+            <div class="details-meta" id="channel-meta">
+              <span class="details-badge category" id="badge-category">Category</span>
+              <span class="details-badge" id="badge-language">Language</span>
+              <span class="details-badge rating" id="badge-rating">Rating</span>
+            </div>
+          </div>
+          <img class="details-logo-badge" id="channel-logo-img" src="" alt="Channel Logo" onerror="this.style.display='none'">
+        </div>
+        
+        <p class="details-desc" id="channel-description">
+          Loading channel description and streaming sources...
+        </p>
+      </section>
+
+    </div>
+
+    <!-- Right Column: Sidebar recommendations list -->
+    <aside class="player-sidebar-col" id="player-sidebar">
+      <h2 class="sidebar-title" id="sidebar-title-text">Recommended Channels</h2>
+      
+      <div class="sidebar-list" id="sidebar-recommendations">
+        <!-- Dynamically filled via JS -->
+      </div>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer" id="app-footer">
+    <div class="footer-container">
+      <p class="footer-text">© 2026 Tamil Box Live. All rights reserved.</p>
+      <p class="footer-disclaimer">Disclaimer: All live streams and channel media logos are copyright of their respective owners. This application links to publicly accessible HLS streams for educational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- Player Controller script -->
+  <script src="player.js?v=1.1"></script>
+</body>
+</html>

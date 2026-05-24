@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamil Box Live - Live TV Streaming</title>
+  <meta name="description" content="Watch your favorite live TV channels including Malayalam news, entertainment, and kids shows on Tamil Box Live.">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- FontAwesome Icons for UI -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- App Header -->
+  <header class="app-header" id="app-header">
+    <div class="header-container">
+      <a href="index.html" class="logo-link" id="logo-link">
+        Tamil Box Live<span class="logo-dot">.</span>
+      </a>
+      
+      <div class="search-box" id="search-container">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input type="text" class="search-input" id="search-input" placeholder="Search channels, languages, categories...">
+      </div>
+      
+      <div class="nav-actions">
+        <div class="live-badge-pulse" id="header-live-badge">Live TV</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Layout -->
+  <main class="main-content" id="main-content">
+    
+    <!-- Hero Slider / Carousel -->
+    <section class="hero-slider" id="hero-slider">
+      <!-- Dynamically filled via JS -->
+    </section>
+
+    <!-- Category Selector Navigation -->
+    <nav class="category-container" id="category-tabs" aria-label="Channel Categories">
+      <button class="category-tab active" data-category="all" id="tab-all">All</button>
+      <button class="category-tab" data-category="Malayalam" id="tab-malayalam">Malayalam</button>
+      <button class="category-tab" data-category="News" id="tab-news">News</button>
+      <button class="category-tab" data-category="Kids" id="tab-kids">Kids</button>
+    </nav>
+
+    <!-- Channels Listing Section -->
+    <section class="channel-row-section" id="channels-section">
+      <h2 class="section-title" id="section-title-text">All Channels</h2>
+      
+      <!-- Channels Grid -->
+      <div class="channels-grid" id="channels-grid">
+        <!-- Dynamically filled via JS -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer" id="app-footer">
+    <div class="footer-container">
+      <p class="footer-text">© 2026 Tamil Box Live. All rights reserved.</p>
+      <p class="footer-disclaimer">Disclaimer: All live streams and channel media logos are copyright of their respective owners. This application links to publicly accessible HLS streams for educational purposes only.</p>
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="app.js?v=1.1"></script>
+</body>
+</html>

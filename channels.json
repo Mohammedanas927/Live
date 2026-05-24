@@ -1,0 +1,123 @@
+[
+  {
+    "id": "asianet-news",
+    "name": "Asianet News",
+    "url": "https://amg13737-amg13737c1-amgplt0016.playout.now3.amagi.tv/playlist/amg13737-amg13737c1-amgplt0016/playlist.m3u8",
+    "category": "News",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/Asianet.png",
+    "description": "Asianet News is a leading Malayalam news channel, offering the latest news updates, political discussions, and breaking stories from Kerala and around the globe.",
+    "featured": true,
+    "rating": "U/A 16+"
+  },
+  {
+    "id": "shinchan-tamil",
+    "name": "Shinchan Tamil",
+    "url": "https://hls.mohammedanas18745.workers.dev/live/index.m3u8",
+    "category": "Kids",
+    "language": "Tamil",
+    "image": "https://mohammedanas927.github.io/Images/Shinchan.jpg",
+    "description": "Watch your favorite mischievous kid Shinchan and his family on hilarious adventures in Tamil. Non-stop entertainment for children of all ages.",
+    "featured": true,
+    "rating": "U/A 7+"
+  },
+  {
+    "id": "mazhavil-manorama-sd",
+    "name": "Mazhavil Manorama SD",
+    "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mazhavilmanorama_nim_https/050522/mazhavilmanorama/playlist.m3u8",
+    "category": "Malayalam",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/MazhavilManoramaSD.jpg",
+    "description": "Mazhavil Manorama is a leading Malayalam entertainment channel known for high-production dramas, reality TV programs, and blockbuster cinema.",
+    "featured": false,
+    "rating": "U/A 13+"
+  },
+  {
+    "id": "manorama-news",
+    "name": "Manorama News",
+    "url": "https://mmtvnews1.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/mmtvNewsCampaign1/index.m3u8",
+    "category": "News",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/ManoramaNews.jpg",
+    "description": "Manorama News delivers up-to-the-minute news coverage, debates, and analytical talk shows. Stay informed with credible journalism in Malayalam.",
+    "featured": true,
+    "rating": "U/A 16+"
+  },
+  {
+    "id": "mazhavil-manorama-hd",
+    "name": "Mazhavil Manorama HD",
+    "url": "https://cdn-7.pishow.tv/live/1129/master.m3u8",
+    "category": "Malayalam",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/mazhavilmanoramahd.jpg",
+    "description": "Enjoy Mazhavil Manorama in crystal-clear High Definition. Premium serials, blockbuster movies, and top-tier reality programs at their best visual quality.",
+    "featured": true,
+    "rating": "U/A 13+"
+  },
+  {
+    "id": "safari-tv",
+    "name": "Safari TV",
+    "url": "https://j78dp346yq5r-hls-live.5centscdn.com/safari/live.stream/playlist.m3u8",
+    "category": "Malayalam",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/Safari.png",
+    "description": "Safari TV is a unique exploration and travel channel in Malayalam, bringing you the wonders of history, geography, and world cultures through visual diaries.",
+    "featured": false,
+    "rating": "U"
+  },
+  {
+    "id": "kairali-news",
+    "name": "Kairali News",
+    "url": "https://cdn-3.pishow.tv/live/1469/master.m3u8",
+    "category": "News",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/KairaliNews.png",
+    "description": "Kairali News is a leading Malayalam news channel, offering credible news reporting, political analyses, and round-the-clock news flashes.",
+    "featured": true,
+    "rating": "U"
+  },
+  {
+    "id": "kairali-we",
+    "name": "Kairali We",
+    "url": "https://cdn-3.pishow.tv/live/1530/master.m3u8",
+    "category": "Malayalam",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/kairaliWe.jpg",
+    "description": "Kairali We is a youth-centric entertainment channel from Kairali TV network, bringing comedy, music, lifestyle, and modern serials.",
+    "featured": false,
+    "rating": "U/A 13+"
+  },
+  {
+    "id": "media-one-news",
+    "name": "Media One News",
+    "url": "https://cdn-3.pishow.tv/live/1481/master.m3u8",
+    "category": "News",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/MediaOne.jpg",
+    "description": "Media One is a popular Malayalam news broadcasting channel covering debates, human interest journalism, national highlights, and global reports.",
+    "featured": true,
+    "rating": "U"
+  },
+ {
+    "id": "Shinchan-Sample",
+    "name": "Shinchan",
+    "url": "https://ia600705.us.archive.org/25/items/shinchan-new-horror-episode-no-30-home-scary-in-tamil/Shinchan%20new%20horror%20Episode%20No%2030%20home%20scary%20in%20Tamil.mp4",
+    "category": "Kids",
+    "language": "Malayalam",
+    "image": "https://mohammedanas927.github.io/Images/Shinchan.jpg",
+    "description": "Shinchan",
+    "featured": true,
+    "rating": "U"
+  },
+  {
+    "id": "Karuppu",
+    "name": "Karuppu Tamil 2026",
+    "url": "https://s34.cdnserver04.xyz/Karuppu_2026_HQ_PreDVD_(v2)_1080p_HD.mp4",
+    "category": "Movies",
+    "language": "Tamil",
+    "image": "https://c.saavncdn.com/199/Verappa-From-Karuppu-Tamil-2025-20250724002422-500x500.jpg",
+    "description": "Karuppu (கருப்பு) is a Tamil action drama film that shows the story of a strong hero who fights against injustice in a village. The film focuses on themes like justice, power, and protecting innocent people.",
+    "featured": true,
+    "rating": "U"
+  }
+]
