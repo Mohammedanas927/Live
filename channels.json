@@ -108,16 +108,5 @@
     "description": "Mathrubhumi News is a prominent 24-hour Malayalam-language free-to-air satellite television news channel based in Kerala, India. Launched on January 23, 2013, it is owned and operated by the Mathrubhumi Printing & Publishing Co. Ltd., which also publishes the widely read Mathrubhumi newspaper.",
     "featured": true,
     "rating": "U"
-  },
-  {
-    "id": "Polimer-news",
-    "name": "Polimer News",
-    "url": "  https://d1rc86nwwc9fag.cloudfront.net/110322/polimernews/playlist.m3u8?hdnts=st=1779689370~exp=1779710970~acl=!*/110322/polimernews/*!/payload/yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.188.87.50_yuppfast_2_channel_184_-1/*~data=yupptvott_5_-1_3b6f5839-0b53-aa06-7a80-023047a6357c_US_52.188.87.50_yuppfast_2_channel_184_-1~hmac=608af6b6d263d3015ea71c9d237e9d69411044a843a7ddc5d9b49d9c569b9da2&ads.network_name=yuppfast&ads.app_store_url=&ads.app_bundle=&ads.content_livestream=1&ads.content_genre=NEWS&ads.channel_name=PolimerNews&ads.language=TAM&ads.user=0"
-    "category": "News",
-    "language": "Tamil",
-    "image": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/polimer-news.png",
-    "description": "Tell me description for polimer newsPolimer News is a popular 24-hour Tamil language satellite television news channel based in Chennai, Tamil Nadu, India. Launched by the Polimer Media Network and founded by Mr. P. V. Kalyanasundaram, it delivers real-time news updates to millions of viewers across Tamil Nadu and globally",
-    "featured": true,
-    "rating": "U"
   }
 ]
