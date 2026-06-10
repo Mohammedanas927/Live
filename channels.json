@@ -119,5 +119,27 @@
     "description": "Polimer News is a popular 24-hour Tamil language satellite television news channel based in Chennai, Tamil Nadu, India. Launched by the Polimer Media Network and founded by Mr. P. V. Kalyanasundaram, it delivers real-time news updates to millions of viewers across Tamil Nadu and globally",
     "featured": true,
     "rating": "U"
-  }
+  },
+    {
+  "id": "star-sports-1-hd",
+  "name": "Star Sports 1 HD",
+  "url": "https://tvsen7.aynaott.com/sspts1/index.m3u8",
+  "category": "Sports",
+  "language": "English",
+  "image": "https://cdn.jsdelivr.net/gh/kratos877/picx-images-hosting@master/20231211/image-Content-8301-j7hc0820-m1.1uex3y269i74.webp",
+  "description": "Star Sports 1 HD brings live cricket, football, kabaddi, tennis, and other major sporting events in high-definition quality.",
+  "featured": true,
+  "rating": "U"
+ },
+ {
+  "id": "star-sports-2-hd",
+  "name": "Star Sports 2 HD",
+  "url": "https://tvsen7.aynaott.com/ssport2hd/mono.m3u8",
+  "category": "Sports",
+  "language": "English",
+  "image": "https://cdn.jsdelivr.net/gh/kratos877/picx-images-hosting@master/20231211/image-Content-1021-j5nj3c68-m1.s44m84pq1cw.webp",
+  "description": "Star Sports 2 HD offers live coverage of international and domestic sports including cricket, football, motorsports, and more in HD.",
+  "featured": true,
+  "rating": "U"
+ }
 ]
