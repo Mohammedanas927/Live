@@ -101,7 +101,7 @@
   {
     "id": "Mathrubhumi-News",
     "name": "Mathrubhumi News",
-    "url": "https://yuppmedtaorire.akamaized.net/v1/manifest/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/mathrubhuminews_nim_https/244850ab-aa5a-4ea3-b7b6-aa92699d8337/3.m3u8",
+    "url": "https://mumt02.tangotv.in/MATHRUBHUMINEWS/index.m3u8",
     "category": "News",
     "language": "Malayalam",
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_-3wykkEyk1m-7AqOdgu_dejSUdGPfo80g&s",
@@ -110,17 +110,6 @@
     "rating": "U"
   },
   {
-    "id": "Polimer-news",
-    "name": "Polimer News",
-    "url": "https://tvsen7.aynaott.com/ssport2hd/mono.m3u8",
-    "category": "News",
-    "language": "Tamil",
-    "image": "https://d229kpbsb5jevy.cloudfront.net/yuppfast/content/common/channel/logos/polimer-news.png",
-    "description": "Polimer News is a popular 24-hour Tamil language satellite television news channel based in Chennai, Tamil Nadu, India. Launched by the Polimer Media Network and founded by Mr. P. V. Kalyanasundaram, it delivers real-time news updates to millions of viewers across Tamil Nadu and globally",
-    "featured": true,
-    "rating": "U"
-  },
-    {
   "id": "star-sports-1-hd",
   "name": "Star Sports 1 HD",
   "url": "https://tvsen7.aynaott.com/sspts1/index.m3u8",
@@ -137,7 +126,7 @@
   "url": "https://tvsen7.aynaott.com/ssport2hd/mono.m3u8",
   "category": "Sports",
   "language": "English",
-  "image": "https://raw.githubusercontent.com/Mohammedanas927/Live/refs/heads/main/assets/StarSports2HD.jpg",
+  "image": "https://github.com/Mohammedanas927/Live/blob/main/assets/Starsports2HD.jpg?raw=true",
   "description": "Star Sports 2 HD offers live coverage of international and domestic sports including cricket, football, motorsports, and more in HD.",
   "featured": true,
   "rating": "U"
